@@ -222,7 +222,7 @@
 
 }
 
-.navbarAfter750px .byCategory { 
+.navbarAfter750px .byCategory {
     display: none;
 }
 
@@ -284,8 +284,8 @@
     display: none;
 }
 
-.downArrowBorder{
-    border: 1px solid rgb(0, 0, 0,0.3);
+.downArrowBorder {
+    border: 1px solid rgb(0, 0, 0, 0.3);
     border-radius: 20px;
 }
 

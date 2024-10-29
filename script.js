@@ -12,6 +12,8 @@ let txtColor = document.querySelectorAll(".txtColor");
 let main11 = document.querySelector(".main11");
 let footerbgcolor = document.querySelector(".footerAfter750px");
 let footerbgcolor2 = document.querySelector(".footerAfter750px2");
+let borderColor = document.querySelectorAll(".border2");
+let downArrowBorder = document.querySelectorAll(".downArrowBorder");
 let boxes = document.querySelectorAll(".box11");
 
 
@@ -50,7 +52,15 @@ bgColor.addEventListener("click", function () {
         footerbgcolor.style.borderColor = "rgb(127, 115, 115)";
         footerbgcolor2.style.borderColor = "rgb(127, 115, 115)";
         navbarAfter750px.style.backgroundColor = "rgb(5, 3, 12)";
-        button2.style.backgroundColor = "rgb(5, 3, 12)"
+        button2.style.backgroundColor = "rgb(5, 3, 12)";
+
+        for (let a of borderColor) {
+            a.style.borderColor = "#784141";
+        }
+
+        for (let a = 0; a < downArrowBorder.length; a++) {
+            downArrowBorder[a].style.borderColor = "#784141"
+        }
 
         boxes.forEach(box => {
             box.style.backgroundColor = 'rgb(16 15 15)';
@@ -89,8 +99,7 @@ bgColor.addEventListener("click", function () {
         footerbgcolor.style.borderColor = "rgb(0, 0, 0, 0.1)";
         footerbgcolor2.style.borderColor = "rgb(0, 0, 0, 0.1)";
         navbarAfter750px.style.backgroundColor = "white";
-        button2.style.backgroundColor = "white"
-
+        button2.style.backgroundColor = "white";
 
         boxes.forEach(box => {
             box.style.backgroundColor = 'white';
