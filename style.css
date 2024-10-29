@@ -76,6 +76,265 @@
     gap: 10px;
 }
 
+.navbarAfter750px {
+    border: 2px solid black;
+    color: #784141;
+    font-size: 12px;
+    font-weight: 500;
+    width: 350px;
+    height: 100vh;
+    overflow: hidden auto;
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    background-color: white;
+    display: none;
+}
+
+.navbarAfter750px .fz-18px {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.slider-menu {
+    display: flex;
+    justify-content: right;
+}
+
+.navbarAfter750px .border {
+    border: 0px solid rgb(130, 76, 76, 0.3);
+    padding: 10px 0;
+    border-top-width: 1px;
+}
+
+
+.slider-menu {
+    margin-bottom: 25px;
+}
+
+.navbarAfter750px .border:nth-child(9) {
+    border: 0px solid rgb(130, 76, 76, 0.3);
+    margin-bottom: 25px;
+    border-width: 1px 0 1px 0;
+}
+
+.navbarAfter750px .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 0;
+}
+
+.navbarAfter750px .border2 {
+    border: 0px solid #000000;
+    margin: 15px 0;
+    border-width: 0px 0px 0px 1px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbarAfter750px .button1 {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 50px;
+    font-weight: 500;
+    color: white;
+    background-color: #f58b76;
+}
+
+.navbarAfter750px .grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.navbarAfter750px .button2 {
+    border: 1px solid #f58b76;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 70px;
+    font-weight: 500;
+    color: #784141;
+    background-color: white;
+    margin: 10px 0 20px 0;
+}
+
+.navbarAfter750px .social-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sale {
+    display: none;
+}
+
+.sarees {
+    display: none;
+}
+
+.dress-material {
+    display: none;
+}
+
+.salwar-suit {
+    display: none;
+}
+
+.lehengas {
+    display: none;
+}
+
+.border .others {
+    display: none;
+}
+
+.border .new-arrivals {
+    display: none;
+}
+
+.border .occasions {
+    display: none;
+}
+
+
+.navbarAfter750px .byOffer {
+    display: none;
+}
+
+.navbarAfter750px .byDiscount {
+    display: none;
+
+}
+
+.navbarAfter750px .byCategory { 
+    display: none;
+}
+
+.navbarAfter750px .byOccasion {
+    display: none;
+}
+
+.navbarAfter750px .byType {
+    display: none;
+
+}
+
+.navbarAfter750px .byMaterial {
+    display: none;
+}
+
+.navbarAfter750px .byColour {
+    display: none;
+}
+
+.navbarAfter750px .byType2 {
+    display: none;
+}
+
+.navbarAfter750px .byMaterial2 {
+    display: none;
+}
+
+.navbarAfter750px .byColour2 {
+    display: none;
+}
+
+.navbarAfter750px .byOccasion2 {
+    display: none;
+}
+
+.navbarAfter750px .byType3 {
+    display: none;
+
+}
+
+.navbarAfter750px .byColour3 {
+    display: none;
+}
+
+.navbarAfter750px .byOccasion3 {
+    display: none;
+}
+
+.navbarAfter750px .byType4 {
+    display: none;
+}
+
+.navbarAfter750px .byMaterial3 {
+    display: none;
+}
+
+.navbarAfter750px .byColour4 {
+    display: none;
+}
+
+.downArrowBorder{
+    border: 1px solid rgb(0, 0, 0,0.3);
+    border-radius: 20px;
+}
+
+@keyframes navbaranime-X {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes navbaranime-X-Back {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes navbaranime-Y {
+    from {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes navbaranime-Y-Back {
+    from {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-10%);
+        opacity: 0;
+        display: none;
+    }
+}
+
 .lightmode {
     border: 2px solid black;
     border-radius: 20px;
@@ -773,7 +1032,7 @@
     align-items: center;
 }
 
-@keyframes translateX {
+@keyframes translateY {
     from {
         transform: translateY(0%);
     }
